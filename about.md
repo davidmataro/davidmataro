@@ -4,27 +4,22 @@ title: About
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  Web developer and Devops engineer
 </p>
 
-In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+Over the past 20 years, I’ve been a system administrator, project manager, services manager and web developer.
 
-There are currently two themes built on Poole:
+As co-founder of webbambu, I develop, deploy and manage e-commerce websites. And as Devops enginner, I collaborate with some companies to automatize the service deployment and management.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+More about me:
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+* [about.me](http://about.me/davidmataro)
+* [twitter](http://twitter.com/davidmataro)
+* [linkedin](http://www.linkedin.com/profile/view?id=5335549&trk=tab_pro)
+* [google+](http://profiles.google.com/dmataro)
+* [facebook](http://www.facebook.com/profile.php?id=1290704005)
 
-## Setup
 
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+--
+David Mataró
+jo@davidmataro.com

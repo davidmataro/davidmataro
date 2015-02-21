@@ -1,0 +1,39 @@
+---
+layout: post
+status: publish
+published: true
+title: SpotCloud
+author:
+  display_name: davidmataro
+  login: admin
+  email: jo@davidmataro.com
+  url: http://www.davidmataro.com
+author_login: admin
+author_email: jo@davidmataro.com
+author_url: http://www.davidmataro.com
+wordpress_id: 251
+wordpress_url: http://davidmataro.loc/?p=251
+date: !binary |-
+  MjAxMC0xMi0xMSAxNjoyNjozNCArMDAwMA==
+date_gmt: !binary |-
+  MjAxMC0xMi0xMSAxNjoyNjozNCArMDAwMA==
+tags:
+- cloud
+- enomaly
+comments: []
+---
+<p><a title="Enomalism" href="http://www.enomalism.com/" target="_blank">Enomaly</a> ha lanzado <a title="SpotCloud" href="http://www.spotcloud.com/" target="_blank">SpotCloud</a>, una plataforma de compra venta de recursos de computación. Actúa como intermediario entre los proveedores de recursos en cloud y clientes de infraestructura en cloud. Esta es opaca, de modo que el comprador no sabe a qué proveedor está comprando los recursos.</p>
+<div id="gt-res-c">
+<div id="gt-res-p">
+<div id="gt-res-data">
+<div id="gt-res-content">
+<div dir="ltr"><a title="Enomalism" href="http://www.enomalism.com/" target="_blank">Enomaly</a> ha anunciado una edición libre de su plataforma <a title="IaaS" href="http://en.wikipedia.org/wiki/Infrastructure_as_a_service#Infrastructure" target="_blank">IaaS</a> <a title="Enomaly's ECP" href="http://www.enomaly.com" target="_blank">Enomaly's ECP</a>.Esta edición está limitada y diseñada para que los proveedor de infraestructura puedan poner sus excedentes a la venta en SpotCloud.</div>
+<div dir="ltr">Desde el punto de vista de los proveedores, que cada día tienen más stock de hardware que no utiliza, ya que sus clientes están virtualizado, esta es una buena oportunidad para revender este stock de hardware que no se utiliza. Y además, sin entrar en conflicto con sus servicios, ya que al ser una plataforma opaca puede poner precios más bajos sin que su cliente se dé cuenta.</div>
+<div dir="ltr">Otra oportunidad puede derivarse de la compra y venta de recursos entre proveedores de servicios gestionado que disponen de sus propios recursos. En ocasiones, los proyectos a que se afrontan requieren de servicios distribuidos, de forma que los proveedores con un único datacenter deben alquilar recursos a otros datacenters. <a title="SpotCloud" href="http://www.spotcloud.com/" target="_blank">SpotCloud</a> puede actuar como plataforma reguladora de compra y venta de recursos. El problema que veo es que al ser una plataforma opaca, no sabes a priori a quien estás comprando recursos y por tanto no puedes negociar niveles de servicio con el otro proveedor.</div>
+<div dir="ltr">Desde el punto de vista del comprador, <a title="SpotCloud" href="http://www.spotcloud.com/" target="_blank">SpotCloud</a> permite contratar diferentes proveedores desde un punto central con una única factura y así reducir costes de gestión.</div>
+<div dir="ltr">Teniendo en cuenta que todos los proveedores son compatibles, el impacto de mover un servidor de proveedor es menor. Por tanto, podemos hacer contrataciones a corto plazo y re-contratar recursos a otros proveedores en función del precio o de la calidad del servicio.</div>
+<div dir="ltr">Sin duda, hay que medir muy bien para qué proyectos se contratan recursos a través de <a title="SpotCloud" href="http://www.spotcloud.com/" target="_blank">SpotCloud</a>, ya que éste no garantiza ningún nivel de servicio. Y al ser opaco, nunca sabemos con qué sorpresas nos podemos encontrar.</div>
+</div>
+</div>
+</div>
+</div>
