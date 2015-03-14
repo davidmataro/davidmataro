@@ -3,7 +3,7 @@ highlighter: null
 permalink: /:title
 
 url: http://www.davidmataro.com
-baseurl:
+baseurl: http://www.davidmataro.com
 
 redcarpet:
   extensions: [strikethrough, tables]
