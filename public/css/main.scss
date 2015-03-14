@@ -238,6 +238,11 @@ dl,
     clear: both;
 }
 
+#blog-name {
+  text-align: right;
+  font-size: 1.5rem;
+}
+
 /*============================================================================*/
 #logo {
   display: inline-block;
@@ -279,5 +284,9 @@ dl,
 
   #logo {
     background-position: center center;
+  }
+
+  #blog-name {
+    text-align: center;
   }
 }
