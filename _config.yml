@@ -2,8 +2,8 @@ markdown: redcarpet
 highlighter: null
 permalink: /:title
 
-url: http://www.davidmataro.com
-baseurl: /
+url:
+baseurl:
 
 redcarpet:
   extensions: [strikethrough, tables]
