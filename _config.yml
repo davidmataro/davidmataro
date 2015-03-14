@@ -1,25 +1,13 @@
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
+markdown: redcarpet
+highlighter: null
+permalink: /:title
 
-# Setup
-title:            David Mataró i Ciller
-tagline:          My Blog
-url:              http://davidmataro.com
-paginate:         10
-baseurl:          /
-author:
-  name:           David Mataró i Ciller
-  url:            http://davidmataro.com
-  email:          jo@davidmataro.com
+url: http://www.davidmataro.com
+baseurl: /
 
-# Pages
-pages_list:       
-  About: '/about'
-  Archive: '/archive'
-  Feed: '/atom.xml'
+redcarpet:
+  extensions: [strikethrough, tables]
 
-# Custom vars
-#version:          1.0.0
-#github:
-#  repo:           https://github.com/poole/poole
+sass:
+  sass_dir: public/css
+  style: :compressed
