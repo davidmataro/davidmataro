@@ -1,6 +1,6 @@
 ---
 layout: post
-status: draft
+status: published
 published: true
 title: My first approach working with chef in local mode
 author:
