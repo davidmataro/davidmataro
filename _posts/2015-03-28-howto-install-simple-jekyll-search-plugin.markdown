@@ -27,8 +27,7 @@ layout: none
       "category" : "{{ post.category }}",
       "tags"     : "{{ post.tags | join: ', ' }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date }}",
-      "content"  : "{{ post.content | strip_html | strip_newlines }}"
+      "date"     : "{{ post.date }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
@@ -74,4 +73,26 @@ SimpleJekyllSearch.init({
   font-size: 0.8em;
   box-size: border-box;
 }
+```
+
+6. Create a html file *_includes/search.html* with the search html code
+
+```html
+<div id="search-container">
+  <input type="text" id="search-input" placeholder="search..." />
+  <ul id="results-container"></ul>
+</div>
+```
+
+7. Finally add the new search.html code to default layout.
+
+```html
+</header>
+{% include search.html %}
+
+{{ content }}
+
+{% include comments.html %}
+
+<footer>
 ```
