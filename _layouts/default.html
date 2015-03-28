@@ -18,6 +18,7 @@
           </div>
         </div>
       </header>
+      {% include search.html %}
 
       {{ content }}
 
@@ -36,6 +37,18 @@
     <!-- scripts -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="{{site.baseurl}}/public/js/jquery.fitvids.js"></script>
+    <script src="{{site.baseurl}}/public/js/jekyll-search.js"></script>
+    <script type="text/javascript">
+    SimpleJekyllSearch.init({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        dataSource: '{{ site.baseurl }}/search.json',
+        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+        noResultsText: 'No results found',
+        limit: 10,
+        fuzzy: false,
+      })
+    </script>
     <script>
       $(document).ready(function(){
         $("article").fitVids();

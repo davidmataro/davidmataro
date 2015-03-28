@@ -243,6 +243,14 @@ dl,
   font-size: 1.5rem;
 }
 
+#search-input {
+  display: inline-block;
+  padding: .5em;
+  width:100%;
+  font-size: 0.8em;
+  box-size: border-box;
+}
+
 /*============================================================================*/
 #logo {
   display: inline-block;
