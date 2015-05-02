@@ -18,6 +18,7 @@ More about me:
 * [linkedin](http://www.linkedin.com/profile/view?id=5335549&trk=tab_pro)
 * [google+](http://profiles.google.com/dmataro)
 * [facebook](http://www.facebook.com/profile.php?id=1290704005)
+* [Gist](https://gist.github.com/davidmataro)
 
 
 
