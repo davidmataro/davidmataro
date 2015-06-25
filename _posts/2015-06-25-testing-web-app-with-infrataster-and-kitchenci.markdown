@@ -16,7 +16,7 @@ comments: []
 
 In some cases it's not sufficient to test if a nginx process is running or port 80 is open. There are some cases that before promote a change to production environment we need run some acceptance test.
 
-I have been searcing in google how to run some acceptance tests with [Chef](https://www.chef.io/) + [Kitchen](http://kitchen.ci/), and I found [infrastaster](https://github.com/ryotarai/infrataster/issues/37), a Infraestucture Behavior Testing Framework. And on a project issue I has found a solution to run [infrastaster](https://github.com/ryotarai/infrataster/issues/37) with [serverspec](http://serverspec.org/).
+I have been searching in google how to run some acceptance tests with [Chef](https://www.chef.io/) + [Kitchen](http://kitchen.ci/), and I found [infrastaster](https://github.com/ryotarai/infrataster/issues/37), a Infraestucture Behavior Testing Framework. And on a project issue I has found a solution to run [infrastaster](https://github.com/ryotarai/infrataster/issues/37) with [serverspec](http://serverspec.org/).
 
 Next I show how I have implemented my own tests with [infrastaster](https://github.com/ryotarai/infrataster/issues/37)
 
