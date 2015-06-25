@@ -3,7 +3,7 @@ layout: post
 status: publish
 published: true
 title: "Testing web app with infrataster and kitchenci"
-description: "How to use infrataster with kitchen and Chef to check a web app"
+description: "Using infrataster, kitchen and Chef to check a web app on chef integrarion testing"
 keywords: "infrataster, serverpec, kitchenci, chef"
 author:
   display_name: davidmataro
