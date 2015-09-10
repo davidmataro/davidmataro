@@ -7,9 +7,15 @@ title: About
   Web developer and Devops engineer
 </p>
 
-Over the past 20 years, I've been a system administrator, project manager, services manager and web developer.
+I’m a tech entusiasm.
 
-As co-founder of webbambu, I develop, deploy and manage e-commerce websites. And as Devops enginner, I collaborate with some companies to automatize the service deployment and management.
+I have a background as system administration, project manager, service manager and web developer.
+
+I provide professional services to drives the customer to adoption of IT automation, continuous delivery and continuous deployment.
+
+I’m cofounder of Webbambu, company that develop and deploy e-commerce sites.
+
+I'm passionate to practice sports like swimming, biking and running.
 
 More about me:
 
