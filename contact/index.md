@@ -4,7 +4,7 @@ title: Contact
 ---
 
 
-### Can I help you? Please, contact with me at
+### Hello. How can I help you? 
 
 
 <p>Email: <a href="jo@davidmataro.com">jo@davidmataro.com</a></p>
