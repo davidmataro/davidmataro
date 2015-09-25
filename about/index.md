@@ -25,7 +25,3 @@ More about me:
 * [google+](http://profiles.google.com/dmataro)
 * [facebook](http://www.facebook.com/profile.php?id=1290704005)
 * [github gist](https://gist.github.com/davidmataro)
-
-
-
-David Mataró - <a href="jo@davidmataro.com">jo@davidmataro.com</a>
