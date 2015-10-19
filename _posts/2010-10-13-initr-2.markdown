@@ -1,0 +1,49 @@
+---
+layout: post
+status: publish
+published: true
+title: Initr
+author:
+  display_name: davidmataro
+  login: admin
+  email: jo@davidmataro.com
+  url: http://www.davidmataro.com
+author_login: admin
+author_email: jo@davidmataro.com
+author_url: http://www.davidmataro.com
+wordpress_id: 261
+wordpress_url: http://davidmataro.loc/?p=261
+date: !binary |-
+  MjAxMC0xMC0xMyAxNjozNjoyOCArMDAwMA==
+date_gmt: !binary |-
+  MjAxMC0xMC0xMyAxNjozNjoyOCArMDAwMA==
+tags:
+- ingent
+- initr
+- sysadmin
+comments: []
+---
+<p><a href="http://www.initr.org"> Initr </a> es un proyecto liderado desde <a href="http://www.ingent.net/?locale=es"> Ingent Grup </a> para la administración automatizada de sistemas distribuidos. <a href="http://www.initr.org"> Initr </a> nace como una interface de gestión de módulos de <a href="http://www.puppetlabs.com/ "> puppet </a> desarrollada y utilizada por <a href="http://www.ingent.net/?locale=es"> Ingent Grup </a> como herramienta principal de gestión de sistemas para ofrecer el servicio <a href="http://www.ingent.net/welcome/page/es_ingent_network"> Ingent Network </a>.</p>
+<p><a href="http://www.initr.org"> Initr </a> se caracteriza por ser una herramienta flexible, escalable y distribuida.</p>
+<p>· <span style="font-weight: bold;"> Felxible</span>: permite la gestión de la configuración de cualquier software.<br />
+· <span style="font-weight: bold;"> Escalable</span>: permite gestionar de forma unificada y automatizada entornos con pocos servidores y entornos con miles de servidores.<br />
+· <span style="font-weight: bold;"> Distribuido</span>: permite gestionar de forma centralizada servidores distribuidos en diferentes Data Centers.</p>
+<p>Con <a href="http://www.initr.org">Initr</a> y de manera sencilla se puede reproducir cualquier configuración de un sistema en otro servidor. Permite reproducir la configuración de un sistema de manera automática en caso de pérdida del mismo, o instalar nuevos servidores dentro de una granja de servidores de manera rápida y automatizada.<br />
+<a href="http://www.initr.org"> Initr </a> permite a los administradores de sistemas perder menos tiempo en tareas repetitivas y reduce la posibilidad de errores humanos en la configuración de los sistemas. Hechos que permiten reducir el coste operativo de administración de los sistemas.</p>
+<p><a href="http://www.initr.org"> Initr </a> dispone de un conjunto de módulos o clases ya desarrollados para la administración de sistemas con <a href="http://www.puppetlabs.com/ "> puppet </a> y permite desarrollar nuevos módulos personalizados. Entre los módulos ya desarrollados y de ámbito generalista destacan:</p>
+<p>· Módulo de monitorización con nagios.<br />
+· Módulo de estadísticas de uso con Munin.<br />
+· Módulo para gestionar procesos automáticos con monit.<br />
+· Módulo para la gestión de actualización de paquetes.<br />
+· Módulo para la administración de un servidor DNS con bind y para la administración de un DNS dinámico.<br />
+· Módulo para la administración del servidor web apache, con capacidad de adminitración de VirtualHost, bbdd mysql y awstats.<br />
+· Módulo para la gestión de samba<br />
+· Módulo para la gestión de un servidor ftp.<br />
+· Módulo para la gestión de un servidor de correo electrónico.<br />
+· Módulo para la gestión de squid.<br />
+· Módulo para la gestión de claves ssh y acceso remoto ssh transparente a los firewalls.</p>
+<p>Un ejemplo práctico de cómo <a href="http://www.initr.org"> Initr </a> ayuda a reducir los costes operativos de administración de sistemas es la instalación y administración de un sistema de monitorización.</p>
+<p>Si nunca ha instalado nagios, sabrá lo que conlleva añadir un nuevo nodo o servidor a monitorizar: configurar el nodo y checks en el servidor nagios, instalar el cliente de nagios en el nodo, en caso de disponer de nodos distribuidos en diferentes Data Centers, configurar las reglas de firewall y checks pasivos. Y no digamos si esta tarea la hacen diferentes técnicos, la estructura de archivos de configuración de nagios puede degenerar mucho sino hay mucha disciplina por parte de los técnicos, provocando fallos en el sistema que se traducen en horas de este mismos técnicos para hacer tunning de la configuración.</p>
+<p>Con <a href="http://www.initr.org"> Initr </a> todo esto se simplifica. Una vez añadido el nodo a Initr - que es tan sencillo como crear el nuevo nodo en <a href="http://www.initr.org"> Initr </a> y ejecutar un comando en el nodo -, para monitorizar el nodo con nagios, sólo hay que añadir la clase nagios al nodo desde la interfaz web de <a href="http://www.initr.org"> Initr </a> y definir los checks deseados. De manera automática todo se configura (servidor, nodo, ..) y el nodo pasa a estar monitorizado desde nagios.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
