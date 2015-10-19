@@ -45,7 +45,7 @@ Infrataster::Server.define(:app, '127.0.0.1')
 Create tests
 
 {% highlight bash %}
-equire 'spec_helper'
+require 'spec_helper'
 
 describe port(80) do
   it { should be_listening.on('0.0.0.0').with('tcp') }
