@@ -1,0 +1,43 @@
+---
+layout: default
+title: Blog
+---
+
+<div class="home">
+  <div class="title-label">
+    <div class="post">
+      <div class="center">
+        <h1>Blog</h1>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="row post-list">
+      {% for post in paginator.posts %}
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="{% if post.dark %}post-text-dark{% else %}post-text{% endif %}">
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+            <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+            {{ post.excerpt | strip_html | truncate:200 }}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="pagination">
+      <div class="row">
+        <div class="col-xs-6">
+          {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path }}" class="previous">Newer Posts</a>
+          {% endif %}
+        </div>
+        <div class="col-xs-6">
+          {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path }}" class="next">Older Posts</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

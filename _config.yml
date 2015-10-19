@@ -1,13 +1,25 @@
+# Site settings
+title: DAVIDMATARO.COM
+email: jo@davidmataro.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://davidmataro.com" # the base hostname & protocol for your site
+paginate: 12
+paginate_path: "blog/page:num/"
+linkedin_username:  davidmataro
+twitter_username: davidmataro
+github_username:  davidmataro
+instagram_username: dmataro
+skype_username: dmataro
+rss: true
+
+# Build settings
 markdown: redcarpet
 highlighter: null
 permalink: /:title
 
-url: http://www.davidmataro.com
-baseurl: http://www.davidmataro.com
-
 redcarpet:
   extensions: [strikethrough, tables]
-
-sass:
-  sass_dir: public/css
-  style: :compressed

@@ -11,12 +11,11 @@ author:
 tags: []
 comments: []
 ---
-
-Hi 
+Hi,
 
 From last year I don't write anything here in my blog. Now, I want write more that last few months. I have to objective with my blog:  share my knowledge and improve my english.  
 
-To do this, I've abandoned my old blog based on Wordpress technology and I have deployed a new blog based on Jekyll technology. 
+To do this, I've abandoned my old blog based on Wordpress technology and I have deployed a new blog based on Jekyll technology.
 
 
 I have migrated all old posts from [Wordpress](http://wordpress.org) to [Jekyll](http://jekyllrb.com/). It include the poss in Catalan, Spanish and English language. From now, I will not translate my posts, I only write a post in one language at the moment.

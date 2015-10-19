@@ -12,10 +12,11 @@ author:
   url: http://www.davidmataro.com
 tags: ['devops','vagrant']
 comments: []
+dark: true
 ---
 
 
-Vagrant boxes are the package format for Vagrant environments. There are a lot of boxes in https://atlas.hashicorp.com/boxes/search, but in some cases you need customize your box. You can automatize your bootstrap with a script or chef, but the virtual machine start up consume time. To reduce the bootstrap time, you can create your own custom box.
+Vagrant boxes are the package format for Vagrant environments. There are a lot of [boxes](https://atlas.hashicorp.com/boxes/search), but in some cases you need customize your box. You can automatize your bootstrap with a script or chef, but the virtual machine start up consume time. To reduce the bootstrap time, you can create your own custom box.
 
 Once you have started and installed your virtual machine, you can create your own box following the next steps:
 
