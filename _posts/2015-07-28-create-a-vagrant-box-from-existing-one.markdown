@@ -22,60 +22,60 @@ Once you have started and installed your virtual machine, you can create your ow
 
 1. Create a new vm from a base box
 
-  ```bash
+  {% highlight bash %}
   vagrant init basebox
-  ```
+  {% endhighlight %}
 
-  ```bash
+  {% highlight bash %}
   vagrant up
-  ```
+  {% endhighlight %}
 
 2. Customize you virtual machine
 
 3. Clean the box
 
-  ```bash
+  {% highlight bash %}
   sudo apt-get clean
-  ```
+  {% endhighlight %}
 
-  ```bash
+  {% highlight bash %}
   sudo dd if=/dev/zero of=/EMPTY bs=1M
   sudo rm -f /EMPTY
-  ```
+  {% endhighlight %}
 
-  ```bash
+  {% highlight bash %}
   cat /dev/null > ~/.bash_history && history -c && exit
-  ```
+  {% endhighlight %}
 
 4. Package de virtual machine to a new vagrant box
 
-  ```bash
+  {% highlight bash %}
   vagrant package --output boxname.box
-  ```
+  {% endhighlight %}
 
 5. Add the new box to your vagrant install
 
-  ```bash
+  {% highlight bash %}
   vagrant box add boxname boxname.box
-  ```
+  {% endhighlight %}
 
 5. Destroy de virtual machine
 
-  ```bash
+  {% highlight bash %}
   vagrant destroy
   rm Vagrantfile
-  ```
+  {% endhighlight %}
 
 7. Configure the nex box in your Vagrantfile
 
-  ```bash
+  {% highlight bash %}
   vagrant init boxname
-  ```
+  {% endhighlight %}
 
   Edit the Vagrantfile and configure it.
 
 8. Start up the virtual machine
 
-  ```bash
+  {% highlight bash %}
   vagrant up
-  ```
+  {% endhighlight %}
