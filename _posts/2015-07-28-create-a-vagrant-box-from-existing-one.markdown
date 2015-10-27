@@ -12,7 +12,6 @@ author:
   url: http://www.davidmataro.com
 tags: ['devops','vagrant']
 comments: []
-dark: true
 ---
 
 
