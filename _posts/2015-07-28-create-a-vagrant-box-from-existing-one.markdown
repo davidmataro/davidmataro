@@ -78,3 +78,14 @@ Once you have started and installed your virtual machine, you can create your ow
   {% highlight bash %}
   vagrant up
   {% endhighlight %}
+
+
+Updates:
+
+-- 2015-11-04 --
+With vagrant 1.7.4, I have had problems to authenticate to the box with private/public keys. To resolve this issues, I have configured the authentication with username/password.
+
+  {% highlight bash %}
+  config.ssh.username = 'vagrant'
+  config.ssh.password = 'vagrant'
+  {% endhighlight %}
