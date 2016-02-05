@@ -12,7 +12,7 @@ author:
   url: http://www.davidmataro.com
 tags: ['devops','aws','testing']
 comments: []
-dark: true
+dark: false
 ---
 
 One of the most important things of continuous delivery process is to run tests. To run test with [Chef](https://www.chef.io/) we have [Test Kitchen](http://kitchen.ci/). [Test Kitchen](http://kitchen.ci/) is a tool to execute test on one o more platforms. [Test Kitchen](http://kitchen.ci/) have drivers to execute test on differents platforms like [Vagrant](https://www.vagrantup.com/), [AWS](http://aws.amazon.com/), [Rackspace](http://www.rackspace.com/), [Azure](https://azure.microsoft.com) and more.
