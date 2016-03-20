@@ -10,7 +10,7 @@ author:
   url: http://www.davidmataro.com
 tags: ['devops','chef']
 comments: []
-dark: true
+dark: false
 ---
 
 Until now, I have been using the approach defined in my post [My first approach working with chef in local mode](my-first-approach-working-with-chef-local-mode) for develop and in some case for production also. Now I use a new approach based on kitchen, [berkshelf](http://berkshelf.com) and vagrant. This approach give me a clear vision of the developed cookbooks.
@@ -93,7 +93,7 @@ suites:
     attributes:
 ```
 
-Because I use a development environment in my .kitchen.ym file configuration, I need create a environment/development.json file.
+Because I use a development environment in my .kitchen.yml file configuration, I need create a environment/development.json file.
 
 ```bash
 {
