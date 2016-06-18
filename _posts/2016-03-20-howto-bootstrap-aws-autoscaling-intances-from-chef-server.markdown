@@ -10,7 +10,7 @@ author:
   url: http://www.davidmataro.com
 tags: ['devops','chef']
 comments: []
-dark: true
+dark: false
 ---
 
 
