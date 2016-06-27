@@ -109,3 +109,39 @@ Links:
 
 [https://github.com/test-kitchen/kitchen-ec2](https://github.com/test-kitchen/kitchen-ec2)
 [http://misheska.com/blog/2014/09/21/survey-of-test-kitchen-providers/#amazon-ec2-cloud-provider-kitchen-ec2](http://misheska.com/blog/2014/09/21/survey-of-test-kitchen-providers/#amazon-ec2-cloud-provider-kitchen-ec2)
+
+
+2016-06-27 UPDATE
+
+
+After update kitchen to 1.7.3 version, when run a kitchen test there are next error:
+
+```bash
+-----> Starting Kitchen (v1.7.3)
+-----> Creating <aws-testing-ubuntu-trusty64>...
+       If you are not using an account that qualifies under the AWS
+free-tier, you may be charged to run these suites. The charge
+should be minimal, but neither Test Kitchen nor its maintainers
+are responsible for your incurred costs.
+
+>>>>>> ------Exception-------
+>>>>>> Class: Kitchen::ActionFailed
+>>>>>> Message: Failed to complete #create action: [parameter validator found 3 errors:
+  - unexpected value at params[:block_device_mappings][0][:ebs_device_name]
+  - unexpected value at params[:block_device_mappings][0][:ebs_volume_size]
+  - unexpected value at params[:block_device_mappings][0][:ebs_delete_on_termination]]
+>>>>>> ----------------------
+>>>>>> Please see .kitchen/logs/kitchen.log for more details
+>>>>>> Also try running `kitchen diagnose --all` for configuration
+```
+
+
+In new kitchen versions the EBS configuration have changed. The new configuration is:
+
+```yml
+block_device_mappings:
+  - device_name: /dev/sda1
+    ebs:
+      volume_size: 50
+      delete_on_termination: true
+```
