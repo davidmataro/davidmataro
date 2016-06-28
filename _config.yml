@@ -15,7 +15,7 @@ github_username:  davidmataro
 instagram_username: dmataro
 skype_username: dmataro
 rss: true
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-sitemap]
 
 # Build settings
 markdown: redcarpet
