@@ -15,6 +15,7 @@ github_username:  davidmataro
 instagram_username: dmataro
 skype_username: dmataro
 rss: true
+gems: [jekyll-paginate]
 
 # Build settings
 markdown: redcarpet
@@ -23,3 +24,11 @@ permalink: /:title
 
 redcarpet:
   extensions: [strikethrough, tables]
+
+sitemap:
+  file: /sitemap.xml
+  exclude:
+    - "/atom.xml"
+    - "/feed.xml"
+  change_frequency_name: "change_frequency"
+  priority_name: "priority"
