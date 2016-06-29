@@ -3,6 +3,7 @@ layout: post
 status: draft
 published: true
 title: Automating aws autoscaling with chef server
+excerpt: Approach to manage Chef nodes in a AWS Autoscaling infrastructure using AWS SQS queues.
 author:
   display_name: davidmataro
   login: admin
@@ -10,7 +11,7 @@ author:
   url: http://www.davidmataro.com
 tags: ['devops','aws','autoscaling','chef']
 comments: []
-dark: true
+dark: false
 ---
 
 One of the most powerfull services from AWS is Autoscaling. [AWS Autoscaling](https://aws.amazon.com/autoscaling/) allow scale EC2 instances up and down automatically. Another powerfull tool is [Chef](https://www.chef.io/) or other tool to automating infrastructures. The combination off both is a great solution to manage your applications in the cloud.
