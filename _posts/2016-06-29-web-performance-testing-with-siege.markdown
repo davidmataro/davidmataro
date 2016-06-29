@@ -3,7 +3,7 @@ layout: post
 status: draft
 published: true
 title: Web performance testing with siege
-excerpt: How to run a web performance test across all url's of your website using siege..
+excerpt: How to run a web performance test across all url's of your website using siege.
 author:
   display_name: davidmataro
   login: admin
