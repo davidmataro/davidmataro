@@ -11,7 +11,7 @@ author:
   url: http://www.davidmataro.com
 tags: ['wpo']
 comments: []
-dark: true
+dark: false
 ---
 
 
