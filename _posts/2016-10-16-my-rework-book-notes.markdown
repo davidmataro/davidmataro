@@ -19,6 +19,7 @@ A friend recommended me to read Rework book from David Heinemeier Hanson partner
 
 ##Notes
 
+
 Not long term plans. Decide what you are going to do this week, not this year. And focus to next important thing and do that.
 
 Be small. And if you need grow, grow slowly.
