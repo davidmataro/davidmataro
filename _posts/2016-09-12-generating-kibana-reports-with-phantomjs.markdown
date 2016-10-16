@@ -11,7 +11,7 @@ author:
   url: http://www.davidmataro.com
 tags: []
 comments: []
-dark: true
+dark: false
 ---
 
 This week a customer said me that he want to receive kibana reports by email. After look in Internet, I found a payment services like Skedler and some approach that use browser tools like selenium or phantomjs. Finally I chose use a broswer approach and because I want to run reports without X11, I chose phantomjs.
