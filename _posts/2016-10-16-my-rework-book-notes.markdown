@@ -17,7 +17,7 @@ dark: true
 A friend recommended me to read Rework book from David Heinemeier Hanson partner of 37signals.com and creator of the Ruby on Rail programming framework. Last week I read 'rework' book and  It 's amazing. I think that it is a great business and personal book. Next my notes about it.
 
 
-*My Rework notes*
+##Notes
 
 Not long term plans. Decide what you are going to do this week, not this year. And focus to next important thing and do that.
 
@@ -47,7 +47,7 @@ Decisions are progress. Don't postpone decisions. Don't wait for perfect solutio
 
 Launch now. Once your product does what it need to do,  get it out there.
 
-Important questions to ask yourself to ensure you are doing work that matters :
+Important questions to ask yourself to ensure you are doing work that matters:
 
 - Why are you doing this?
 - What problem are you solving?
@@ -85,7 +85,7 @@ Say no by default. "if I'd listened the customers,  I'd have given them a faster
 
 Have as many great ideas as you can, write them and park them for a few days. Then evaluate their actual priority with a calm mind.
 
-Build and audience. When you build an audicence you don’t have to buy people’s attention. To build an audience, speak, write, blog tweet, make videos. Share information that’s valuable.
+Build and audience. When you build an audience you don’t have to buy people’s attention. To build an audience, speak, write, blog tweet, make videos. Share information that’s valuable.
 
 Share everything you know.
 
