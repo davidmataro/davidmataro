@@ -11,7 +11,7 @@ author:
   url: http://www.davidmataro.com
 tags: []
 comments: []
-dark: true
+dark: false
 ---
 
 A friend recommended me to read Rework book from David Heinemeier Hanson partner of 37signals.com and creator of the Ruby on Rail programming framework. Last week I read 'rework' book and  It 's amazing. I think that it is a great business and personal book. Next my notes about it.
