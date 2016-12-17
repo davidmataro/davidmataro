@@ -11,7 +11,7 @@ author:
   url: http://www.davidmataro.com
 tags: [elk,elasticsearch]
 comments: []
-dark: true
+dark: false
 ---
 
 [Elasticsearch](https://www.elastic.co) have a snapshot and restore API to create snapshots of individual indices or an entire cluster into a remote repository.
